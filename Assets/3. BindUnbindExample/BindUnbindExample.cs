@@ -11,11 +11,11 @@ public class BindUnbindExample : MonoBehaviour
 
     void OnEnable()
     {
-        data.textData.Bind(OnDataUpdate);
+        data.textData += OnDataUpdate;
     }
     void OnDisable()
     {
-        data.textData.Unbind(OnDataUpdate);
+        data.textData -= OnDataUpdate;
     }
 
     void OnDataUpdate(string str)
