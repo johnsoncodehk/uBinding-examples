@@ -10,21 +10,22 @@ public class MVP_Presenter : MonoBehaviour
 
     void Start()
     {
-        view.slider.onValueChanged.AddListener(vol =>
-        {
-            model.volume.value = vol;
-        });
+        view.slider.onValueChanged.AddListener(UpdateModel);
     }
     void OnEnable()
     {
-        model.volume += OnVolumeChanged;
+        model.volume += UpdateView;
     }
     void OnDisable()
     {
-        model.volume -= OnVolumeChanged;
+        model.volume -= UpdateView;
     }
 
-    void OnVolumeChanged(float volum)
+    void UpdateModel(float volum)
+    {
+        model.volume.value = volum;
+    }
+    void UpdateView(float volum)
     {
         view.slider.value = volum;
         view.text.text = "Volum: " + volum;
