@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using uBinding;
 
-public class BindingInputFieldExample : MonoBehaviour
+public class InputFieldExample : MonoBehaviour
 {
 
     [Multiline] public BindableString text;

@@ -16,6 +16,7 @@ public class BindUnbindExample : MonoBehaviour
     void OnDisable()
     {
         data.textData -= OnDataUpdate;
+        text.text = "Unbind Success!";
     }
 
     void OnDataUpdate(string str)
