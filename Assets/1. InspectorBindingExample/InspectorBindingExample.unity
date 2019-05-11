@@ -639,7 +639,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   visiable:
     m_Value: 1
-    m_Binding:
+    m_OnValueChanged:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 863774367}
@@ -652,12 +652,12 @@ MonoBehaviour:
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
-          m_CallState: 1
-      m_TypeName: uBinding.BoolEventHandler, uBinding.Runtime, Version=0.0.0.0, Culture=neutral,
+          m_CallState: 2
+      m_TypeName: uBinding.BoolBindingEvent, uBinding.Runtime, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
   position:
     m_Value: {x: 0, y: 1, z: 0}
-    m_Binding:
+    m_OnValueChanged:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 863774368}
@@ -670,12 +670,12 @@ MonoBehaviour:
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
-          m_CallState: 1
-      m_TypeName: uBinding.Vector3EventHandler, uBinding.Runtime, Version=0.0.0.0,
+          m_CallState: 2
+      m_TypeName: uBinding.Vector3BindingEvent, uBinding.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
   rotation:
     m_Value: {x: -10.96, y: 7.92, z: 6.81, w: 6.4}
-    m_Binding:
+    m_OnValueChanged:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 863774368}
@@ -688,12 +688,12 @@ MonoBehaviour:
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
-          m_CallState: 1
-      m_TypeName: uBinding.QuaternionEventHandler, uBinding.Runtime, Version=0.0.0.0,
+          m_CallState: 2
+      m_TypeName: uBinding.QuaternionBindingEvent, uBinding.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
   scale:
     m_Value: {x: 1, y: 1, z: 2}
-    m_Binding:
+    m_OnValueChanged:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 863774368}
@@ -706,12 +706,12 @@ MonoBehaviour:
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
-          m_CallState: 1
-      m_TypeName: uBinding.Vector3EventHandler, uBinding.Runtime, Version=0.0.0.0,
+          m_CallState: 2
+      m_TypeName: uBinding.Vector3BindingEvent, uBinding.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
   lightColor:
     m_Value: {r: 0, g: 0.95686275, b: 0.8392157, a: 1}
-    m_Binding:
+    m_OnValueChanged:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 904400854}
@@ -724,14 +724,14 @@ MonoBehaviour:
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
-          m_CallState: 1
-      m_TypeName: uBinding.ColorEventHandler, uBinding.Runtime, Version=0.0.0.0, Culture=neutral,
+          m_CallState: 2
+      m_TypeName: uBinding.ColorBindingEvent, uBinding.Runtime, Version=0.0.0.0, Culture=neutral,
         PublicKeyToken=null
   text:
     m_Value: 'Hello! Welcome to uBinding!
 
       Look "Bindings" GameObject to see how to do!'
-    m_Binding:
+    m_OnValueChanged:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 170959001}
@@ -744,8 +744,8 @@ MonoBehaviour:
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
-          m_CallState: 1
-      m_TypeName: uBinding.StringEventHandler, uBinding.Runtime, Version=0.0.0.0,
+          m_CallState: 2
+      m_TypeName: uBinding.StringBindingEvent, uBinding.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
 --- !u!4 &1225822424
 Transform:

@@ -5,10 +5,10 @@ using uBinding;
 
 public class InspectorBindingExample : MonoBehaviour
 {
-    public BindableBool visiable;
-    public BindableVector3 position;
-    public BindableQuaternion rotation;
-    public BindableVector3 scale;
-    public BindableColor lightColor;
-    [TextArea] public BindableString text;
+    public BoolBinding visiable;
+    public Vector3Binding position;
+    public QuaternionBinding rotation;
+    public Vector3Binding scale;
+    public ColorBinding lightColor;
+    [TextArea] public StringBinding text;
 }

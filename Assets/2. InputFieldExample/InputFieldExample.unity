@@ -777,7 +777,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text:
     m_Value: Hello World!
-    m_Binding:
+    m_OnValueChanged:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 929354025}
@@ -802,7 +802,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 1
-      m_TypeName: uBinding.StringEventHandler, uBinding.Runtime, Version=0.0.0.0,
+      m_TypeName: uBinding.StringBindingEvent, uBinding.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
 --- !u!114 &1887601518
 MonoBehaviour:

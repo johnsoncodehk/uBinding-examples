@@ -1,11 +1,11 @@
 {
   "dependencies": {
-    "com.unity.modules.ui": "1.0.0",
-    "com.unity.ubinding": "https://github.com/johnsoncodehk/ubinding.git"
+    "com.unity.ubinding": "https://github.com/johnsoncodehk/ubinding.git",
+    "com.unity.modules.ui": "1.0.0"
   },
   "lock": {
     "com.unity.ubinding": {
-      "hash": "b1014588baceafbb799b63996cb305f4160ff35e",
+      "hash": "aeaaf41bfd9119993686e4f9a2de0066ae1c8651",
       "revision": "HEAD"
     }
   }

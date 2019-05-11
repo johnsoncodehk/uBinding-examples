@@ -6,6 +6,6 @@ using uBinding;
 public class BindUnbindExampleData : MonoBehaviour
 {
 
-    [TextArea] public BindableString textData;
+    [TextArea] public StringBinding textData;
 
 }

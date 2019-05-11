@@ -6,7 +6,7 @@ using uBinding;
 public class InputFieldExample : MonoBehaviour
 {
 
-    [Multiline] public BindableString text;
+    [Multiline] public StringBinding text;
 
     public void OnInputFieldEndEdit(string text)
     {
